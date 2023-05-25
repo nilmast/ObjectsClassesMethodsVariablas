@@ -9,9 +9,8 @@ public class VehConsDemo {
         int dist = 252;
 
         gallons = minivan.fuelNeeded(dist);
-        gallons = sportscar.fuelNeeded(dist);
-
         System.out.println("Для преодоления " + dist + " миль мини- фургону требуется " + gallons + " галлонов топлива");
+        gallons = sportscar.fuelNeeded(dist);
         System.out.println("Для преодоления " + dist + " миль спортивному автомобилю требуется " + gallons + " галлонов топлива");
 
     }
